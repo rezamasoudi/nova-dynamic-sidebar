@@ -1,0 +1,30 @@
+{
+    "name": "masoudi/nova-dynamic-sidebar",
+    "description": "laravel nova dynamic sidebar",
+    "keywords": [
+        "laravel",
+        "nova",
+        "sidebar"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masoudi\\Nova\\Sidebar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Masoudi\\Nova\\Sidebar\\NovaDynamicSidebarProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
